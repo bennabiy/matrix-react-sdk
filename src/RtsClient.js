@@ -49,9 +49,9 @@ export default class RtsClient {
     }
 
     /**
-     * Track a referral with the Riot Team Server. This should be called once a referred
+     * Track a referral with the Saphar Team Server. This should be called once a referred
      * user has been successfully registered.
-     * @param {string} referrer the user ID of one who referred the user to Riot.
+     * @param {string} referrer the user ID of one who referred the user to Saphar.
      * @param {string} sid the sign-up identity server session ID .
      * @param {string} clientSecret the sign-up client secret.
      * @returns {Promise} a promise that resolves to { team_token: 'sometoken' } upon

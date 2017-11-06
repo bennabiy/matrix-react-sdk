@@ -378,7 +378,7 @@ module.exports = withMatrixClient(React.createClass({
 
     onPermalinkClicked: function(e) {
         // This allows the permalink to be opened in a new tab/window or copied as
-        // matrix.to, but also for it to enable routing within Riot when clicked.
+        // matrix.to, but also for it to enable routing within Saphar when clicked.
         e.preventDefault();
         dis.dispatch({
             action: 'view_room',

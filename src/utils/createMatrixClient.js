@@ -51,7 +51,7 @@ export default function createMatrixClient(opts) {
 
         storeOpts.store = new Matrix.IndexedDBStore({
             indexedDB: indexedDB,
-            dbName: "riot-web-sync",
+            dbName: "saphar-web-sync",
             localStorage: localStorage,
             workerScript: createMatrixClient.indexedDbWorkerScript,
         });

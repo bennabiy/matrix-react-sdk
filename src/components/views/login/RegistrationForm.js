@@ -293,7 +293,7 @@ module.exports = React.createClass({
                         <a href={"mailto:" + this.props.teamsConfig.supportEmail}>
                             { this.props.teamsConfig.supportEmail }
                         </a>&nbsp;
-                        to get your university signed up. Or continue to register with Riot to enjoy our open source platform.
+                        to get your university signed up. Or continue to register with Saphar to enjoy our open source platform.
                     </p>
                 );
             } else if (this.state.selectedTeam) {

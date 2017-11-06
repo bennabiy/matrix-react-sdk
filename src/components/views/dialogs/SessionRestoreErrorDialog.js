@@ -61,7 +61,7 @@ export default React.createClass({
                     "you continue, you will need to log in again, and encrypted chat " +
                     "history will be unreadable.") }</p>
 
-                    <p>{ _t("If you have previously used a more recent version of Riot, your session " +
+                    <p>{ _t("If you have previously used a more recent version of Saphar, your session " +
                     "may be incompatible with this version. Close this window and return " +
                     "to the more recent version.") }</p>
 

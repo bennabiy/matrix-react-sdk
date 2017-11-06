@@ -48,7 +48,7 @@ module.exports = React.createClass({
         teamServerConfig: React.PropTypes.shape({
             // Email address to request new teams
             supportEmail: React.PropTypes.string.isRequired,
-            // URL of the riot-team-server to get team configurations and track referrals
+            // URL of the saphar-team-server to get team configurations and track referrals
             teamServerURL: React.PropTypes.string.isRequired,
         }),
         teamSelected: React.PropTypes.object,

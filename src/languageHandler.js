@@ -37,7 +37,7 @@ export function _td(s) {
 
 // The translation function. This is just a simple wrapper to counterpart,
 // but exists mostly because we must use the same counterpart instance
-// between modules (ie. here (react-sdk) and the app (riot-web), and if we
+// between modules (ie. here (react-sdk) and the app (saphar-web), and if we
 // just import counterpart and use it directly, we end up using a different
 // instance.
 export function _t(...args) {
@@ -136,7 +136,7 @@ export function _tJsx(jsxText, patterns, subs) {
 
 // Allow overriding the text displayed when no translation exists
 // Currently only used in unit tests to avoid having to load
-// the translations in riot-web
+// the translations in saphar-web
 export function setMissingEntryGenerator(f) {
     counterpart.setMissingEntryGenerator(f);
 }

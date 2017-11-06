@@ -70,7 +70,7 @@ module.exports = React.createClass({
                 ReactDOM.render(_tJsx(
                     "Robot check is currently unavailable on desktop - please use a <a>web browser</a>",
                     /<a>(.*?)<\/a>/,
-                    (sub) => { return <a href='https://riot.im/app'>{ sub }</a>; }), warning);
+                    (sub) => { return <a href='https://client.saphar.net'>{ sub }</a>; }), warning);
                 this.refs.recaptchaContainer.appendChild(warning);
             } else {
                 const scriptTag = document.createElement('script');

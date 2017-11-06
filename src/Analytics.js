@@ -21,7 +21,7 @@ import SdkConfig from './SdkConfig';
 function getRedactedUrl() {
     const redactedHash = window.location.hash.replace(/#\/(room|user)\/(.+)/, "#/$1/<redacted>");
     // hardcoded url to make piwik happy
-    return 'https://riot.im/app/' + redactedHash;
+    return 'https://client.saphar.net/' + redactedHash;
 }
 
 const customVariables = {
@@ -97,7 +97,7 @@ class Analytics {
 
         this._setVisitVariable('Chosen Language', getCurrentLanguage());
 
-        if (window.location.hostname === 'riot.im') {
+        if (window.location.hostname === 'client.saphar.net') {
             this._setVisitVariable('Instance', window.location.pathname);
         }
 

@@ -38,7 +38,7 @@ import * as languageHandler from '../../languageHandler';
 import * as FormattingUtils from '../../utils/FormattingUtils';
 
 // if this looks like a release, use the 'version' from package.json; else use
-// the git sha. Prepend version with v, to look like riot-web version
+// the git sha. Prepend version with v, to look like saphar-web version
 const REACT_SDK_VERSION = 'dist' in packageJson ? packageJson.version : packageJson.gitHead || '<local>';
 
 // Simple method to help prettify GH Release Tags and Commit Hashes.
@@ -431,7 +431,7 @@ module.exports = React.createClass({
                 <div>
              { _t("For security, logging out will delete any end-to-end " +
                   "encryption keys from this browser. If you want to be able " +
-                  "to decrypt your conversation history from future Riot sessions, " +
+                  "to decrypt your conversation history from future Saphar sessions, " +
                   "please export your room keys for safe-keeping.") }.
                 </div>,
             button: _t("Sign out"),
@@ -671,7 +671,7 @@ module.exports = React.createClass({
             <div>
                 <h3>Referral</h3>
                 <div className="mx_UserSettings_section">
-                    { _t("Refer a friend to Riot:") } <a href={href}>{ href }</a>
+                    { _t("Refer a friend to Saphar:") } <a href={href}>{ href }</a>
                 </div>
             </div>
         );
@@ -913,7 +913,7 @@ module.exports = React.createClass({
         return <div>
             <h3>{ _t('Analytics') }</h3>
             <div className="mx_UserSettings_section">
-                { _t('Riot collects anonymous analytics to allow us to improve the application.') }
+                { _t('Saphar collects anonymous analytics to allow us to improve the application.') }
                 { ANALYTICS_SETTINGS_LABELS.map( this._renderLocalSetting ) }
             </div>
         </div>;
@@ -1077,7 +1077,7 @@ module.exports = React.createClass({
                     const ErrorDialog = sdk.getComponent('dialogs.ErrorDialog');
                     Modal.createTrackedDialog('No media permissions', '', ErrorDialog, {
                         title: _t('No media permissions'),
-                        description: _t('You may need to manually permit Riot to access your microphone/webcam'),
+                        description: _t('You may need to manually permit Saphar to access your microphone/webcam'),
                     });
                 },
             ]);
@@ -1390,8 +1390,8 @@ module.exports = React.createClass({
                             ? gHVersionLabel('matrix-org/matrix-react-sdk', REACT_SDK_VERSION)
                             : REACT_SDK_VERSION
                         }<br />
-                        { _t('riot-web version:') } { (this.state.vectorVersion !== undefined)
-                            ? gHVersionLabel('vector-im/riot-web', this.state.vectorVersion)
+                        { _t('saphar-web version:') } { (this.state.vectorVersion !== undefined)
+                            ? gHVersionLabel('bennabiy/saphar-web', this.state.vectorVersion)
                             : 'unknown'
                         }<br />
                         { _t("olm version:") } { olmVersionString }<br />

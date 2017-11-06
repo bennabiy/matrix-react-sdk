@@ -42,7 +42,7 @@
     "VoIP": "VoIP",
     "No Microphones detected": "Nessun Microfono rilevato",
     "No Webcams detected": "Nessuna Webcam rilevata",
-    "You may need to manually permit Riot to access your microphone/webcam": "Potresti dover permettere manualmente a Riot di accedere al tuo microfono/webcam",
+    "You may need to manually permit Saphar to access your microphone/webcam": "Potresti dover permettere manualmente a Saphar di accedere al tuo microfono/webcam",
     "Default Device": "Dispositivo Predefinito",
     "Microphone": "Microfono",
     "Camera": "Videocamera",

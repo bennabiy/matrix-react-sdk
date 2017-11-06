@@ -78,7 +78,7 @@ export default React.createClass({
             const blob = new Blob([f], {
                 type: 'text/plain;charset=us-ascii',
             });
-            FileSaver.saveAs(blob, 'riot-keys.txt');
+            FileSaver.saveAs(blob, 'saphar-keys.txt');
             this.props.onFinished(true);
         }).catch((e) => {
             console.error("Error exporting e2e keys:", e);

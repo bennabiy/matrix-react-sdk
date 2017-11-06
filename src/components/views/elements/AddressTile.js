@@ -62,7 +62,7 @@ export default React.createClass({
         if (this.props.networkUrl !== "") {
             network = (
                 <div className="mx_AddressTile_network">
-                    <BaseAvatar width={25} height={25} name={this.props.networkName} title="Riot" url={this.props.networkUrl} />
+                    <BaseAvatar width={25} height={25} name={this.props.networkName} title="Saphar" url={this.props.networkUrl} />
                 </div>
             );
         }

@@ -987,7 +987,7 @@ Changes in [0.8.9-rc.1](https://github.com/matrix-org/matrix-react-sdk/releases/
    [\#818](https://github.com/matrix-org/matrix-react-sdk/pull/818)
  * Add option to not send typing notifications
    [\#819](https://github.com/matrix-org/matrix-react-sdk/pull/819)
- * Sync RM across instances of Riot
+ * Sync RM across instances of Saphar
    [\#805](https://github.com/matrix-org/matrix-react-sdk/pull/805)
  * First iteration on improving login UI
    [\#811](https://github.com/matrix-org/matrix-react-sdk/pull/811)
@@ -1013,7 +1013,7 @@ Changes in [0.8.8-rc.2](https://github.com/matrix-org/matrix-react-sdk/releases/
 =============================================================================================================
 [Full Changelog](https://github.com/matrix-org/matrix-react-sdk/compare/v0.8.8-rc.1...v0.8.8-rc.2)
 
- * Fix bug where links to Riot would fail to open.
+ * Fix bug where links to Saphar would fail to open.
 
 
 Changes in [0.8.8-rc.1](https://github.com/matrix-org/matrix-react-sdk/releases/tag/v0.8.8-rc.1) (2017-04-21)
@@ -1144,7 +1144,7 @@ Changes in [0.8.7-rc.1](https://github.com/matrix-org/matrix-react-sdk/releases/
    [\#745](https://github.com/matrix-org/matrix-react-sdk/pull/745)
  * Decide on which screen to show after login in one place
    [\#743](https://github.com/matrix-org/matrix-react-sdk/pull/743)
- * Add onClick to permalinks to route within Riot
+ * Add onClick to permalinks to route within Saphar
    [\#744](https://github.com/matrix-org/matrix-react-sdk/pull/744)
  * Add support for pasting files into the text box
    [\#605](https://github.com/matrix-org/matrix-react-sdk/pull/605)

@@ -12,11 +12,11 @@ a 'skin'. A skin provides:
  * Zero or more 'modules' containing non-UI functionality
 
 **WARNING: As of July 2016, the skinning abstraction is broken due to rapid
-development of `matrix-react-sdk` to meet the needs of Riot (codenamed Vector), the first app
+development of `matrix-react-sdk` to meet the needs of Saphar (codenamed Vector), the first app
 to be built on top of the SDK** (https://github.com/vector-im/riot-web).
 Right now `matrix-react-sdk` depends on some functionality from `riot-web`
-(e.g. CSS), and `matrix-react-sdk` contains some Riot specific behaviour
-(grep for 'vector').  This layering will be fixed asap once Riot development
+(e.g. CSS), and `matrix-react-sdk` contains some Saphar specific behaviour
+(grep for 'vector').  This layering will be fixed asap once Saphar development
 has stabilised, but for now we do not advise trying to create new skins for
 matrix-react-sdk until the layers are clearly separated again.
 
@@ -48,15 +48,15 @@ https://github.com/matrix-org/synapse/tree/master/CONTRIBUTING.rst
 Please follow the Matrix JS/React code style as per:
 https://github.com/matrix-org/matrix-react-sdk/blob/master/code_style.md
 
-Whilst the layering separation between matrix-react-sdk and Riot is broken
+Whilst the layering separation between matrix-react-sdk and Saphar is broken
 (as of July 2016), code should be committed as follows:
  * All new components: https://github.com/matrix-org/matrix-react-sdk/tree/master/src/components
- * Riot-specific components: https://github.com/vector-im/riot-web/tree/master/src/components
+ * Saphar-specific components: https://github.com/vector-im/riot-web/tree/master/src/components
    * In practice, `matrix-react-sdk` is still evolving so fast that the maintenance
-     burden of customising and overriding these components for Riot can seriously
-     impede development.  So right now, there should be very few (if any) customisations for Riot.
+     burden of customising and overriding these components for Saphar can seriously
+     impede development.  So right now, there should be very few (if any) customisations for Saphar.
  * CSS for Matrix SDK components: https://github.com/vector-im/riot-web/tree/master/src/skins/vector/css/matrix-react-sdk
- * CSS for Riot-specific overrides and components: https://github.com/vector-im/riot-web/tree/master/src/skins/vector/css/riot-web
+ * CSS for Saphar-specific overrides and components: https://github.com/vector-im/riot-web/tree/master/src/skins/vector/css/riot-web
 
 React components in matrix-react-sdk are come in two different flavours:
 'structures' and 'views'.  Structures are stateful components which handle the
