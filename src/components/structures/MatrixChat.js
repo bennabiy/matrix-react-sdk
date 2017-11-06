@@ -1344,7 +1344,7 @@ module.exports = React.createClass({
     },
 
     _setPageSubtitle: function(subtitle='') {
-        document.title = `Riot ${subtitle}`;
+        document.title = `Saphar ${subtitle}`;
     },
 
     updateStatusIndicator: function(state, prevState) {
