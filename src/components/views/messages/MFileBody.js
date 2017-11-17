@@ -113,7 +113,7 @@ Tinter.registerTintable(updateTintedDownloadImage);
 // ordinary javascript function which then is turned into a string using
 // toString().
 //
-const DEFAULT_CROSS_ORIGIN_RENDERER = "https://usercontent.riot.im/v1.html";
+const DEFAULT_CROSS_ORIGIN_RENDERER = "https://mtx.saphar.net/v1.html";
 
 /**
  * Render the attachment inside the iframe.

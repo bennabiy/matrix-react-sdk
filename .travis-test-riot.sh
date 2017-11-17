@@ -2,17 +2,17 @@
 #
 # script which is run by the travis build (after `npm run test`).
 #
-# clones riot-web develop and runs the tests against our version of react-sdk.
+# clones saphar-web develop and runs the tests against our version of react-sdk.
 
 set -ev
 
-SAPHAR_WEB_DIR=riot-web
+SAPHAR_WEB_DIR=saphar-web
 REACT_SDK_DIR=`pwd`
 
 curbranch="${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}"
 echo "Determined branch to be $curbranch"
 
-git clone https://github.com/vector-im/riot-web.git \
+git clone https://github.com/bennabiy/saphar-web.git \
     "$SAPHAR_WEB_DIR"
 
 cd "$SAPHAR_WEB_DIR"
